@@ -9,7 +9,7 @@ Is_Published = True
 
 # print(Student_Count)
 
-course = "python programming"
+course = "  python programming"
 # print (len(course)) this is going to print p
 
 print(course[0])
@@ -22,5 +22,10 @@ print("python \n programing")
 
 first = "anne"
 last="muhimpundu"
-full = f"{first} {last}"
+full = f"{len(first)} {2 + 2}"
+# "//work as concatinations
 print(full)
+
+print(course.find("pro"))
+
+
