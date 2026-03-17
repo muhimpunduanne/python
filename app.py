@@ -18,3 +18,9 @@ print(course[0:3])
 print(course[:3])
 print(course[0:])
 print(course[:])
+print("python \n programing")
+
+first = "anne"
+last="muhimpundu"
+full = f"{first} {last}"
+print(full)
