@@ -28,4 +28,8 @@ print(full)
 
 print(course.find("pro"))
 
+print(course.replace("p","j"))
+print("swift" in course)
+
+
 
