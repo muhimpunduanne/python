@@ -8,3 +8,7 @@ if  not student:
 
 else:
     print("not eligible")
+
+
+for number in range(3):
+    print("attempt")
