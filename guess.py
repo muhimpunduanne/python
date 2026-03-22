@@ -1,6 +1,13 @@
-i = 1
-while i <= 5:
-    print("*" * i)
+secret_number = 9
+guess_limit =3
+guess_counter= 0
 
-    i = i + 1
-print("done")    
+while guess_counter < guess_limit:
+
+    guess = int (input("Guess: "))
+    guess_counter += 1
+    if (guess == secret_number):
+        print("you won!!")
+        
+else:
+    print("sorry you failed")        
