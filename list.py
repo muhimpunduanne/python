@@ -1,13 +1,20 @@
-fruits = ["mango","banana","orange"]
+# fruits = ["mango","banana","orange"]
 
-print (fruits)
+# print (fruits)
 
-fruits = {"name":"anne","second":"muhimpundu"}
+# fruits = {"name":"anne","second":"muhimpundu"}
 
-print(fruits)
+# print(fruits)
 
 
 
-name = input("what is  your name: ")
+# name = input("what is  your name: ")
 
-print("hi" + " "+ name)
+# print("hi" + " "+ name)
+
+
+name = input("enter your name:")
+
+color = input("enter your favorate color :")
+
+print(name +""+"likes" +" "+color)
